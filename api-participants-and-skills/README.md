@@ -1,16 +1,24 @@
-# API-PARTICIPANTS-AND-SKILLS
+# Api con nodeJS - Base de Datos con mongoDB
 
-## pre requirements
-- mongoDBCompass installed 
+## Tecnologia utilizada
+### BACK-END
+- TypeScript
+- Express: Para generar un servicio de tipo API.
+- Mongoose: Para generar la comunicacion con la BD de mongo.
 
-`https://docs.mongodb.com/compass/master/install/`
-`https://www.mongodb.com/try/download/compass?tck=docs_compass`
+## Clonar, instalar y ejecutar la app
 
-- mongod.exe service running.
-`if you have windows, you can find the file mongod.exe in the following path: C:\ProgramFiles\MongoDB\Server\4.4\bin `
+En mac se debe clonar el repositorio por SSH y se debe tener la ssh-key incorporada en tu maquina y cargada en tu perfil de github previamente.
+Para saber mas de esto [Generando tu clave pública SSH](https://git-scm.com/book/es/v2/Git-en-el-Servidor-Generando-tu-clave-p%C3%BAblica-SSH).
+En windows se puede hacer el clone por HTTPS.
 
-## setup
-- `npm install`
+### Intalar la API (se debe ejecutar esta primero que la web)
+`npm i`
 
-## start
+### Ejecutar la API (ejecutar esto antes que la WEB)
 `npm run dev`
+
+Se debe ver en consola ```jsx Server on port 3001 ```
+
+### Ejecutar el servicio mongoDB
+Si se necesita saber mas de esto: [instalar y ejecutar mongoDB](https://platzi.com/blog/como-instalar-mongodb-en-window-linux-y-mac/?utm_source=google&utm_medium=cpc&utm_campaign=18798607679&utm_adgroup=&utm_content=&gclid=Cj0KCQiA2-2eBhClARIsAGLQ2RkX9m2H6igSEByrulktMKQy8JI_8n6qOPflwlQ4aYNvtSoAJLTHEIoaAg1vEALw_wcB&gclsrc=aw.ds).
