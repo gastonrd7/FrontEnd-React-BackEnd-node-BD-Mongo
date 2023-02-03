@@ -1,7 +1,6 @@
 # Api con nodeJS - Base de Datos con mongoDB
 
 ## Tecnologia utilizada
-### BACK-END
 - TypeScript
 - Express: Para generar un servicio de tipo API.
 - Mongoose: Para generar la comunicacion con la BD de mongo.
