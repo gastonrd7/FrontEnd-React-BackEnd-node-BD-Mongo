@@ -17,6 +17,16 @@
 ### BASE DE DATOS
 - mongo: Simplemente tener el servicio corriendo, la base de datos la modela la api y Mediante una accion de UI se inserta la data.
 
+## Demo 1
+
+https://user-images.githubusercontent.com/12037109/216647564-a65feeb8-0630-4429-bb02-483a74038dfa.mp4
+
+## Demo 2 viendo redux
+
+https://user-images.githubusercontent.com/12037109/216647683-8b96f6e4-d79d-4dbb-ae6f-10c745d3d456.mp4
+
+
+
 ## Pre-requisitos para la maquina donde se correra la app
 
 ### node, npm y yarn
@@ -66,6 +76,10 @@ Mongodb connection stablished 27017
 `yarn start`
 
 Se debe abrir el explorador y existe en primera instancia una unica accion, agregar los participantes, esto creara los registros en la BD,Para luego poder interactuar con estos.
-<p>
-<img height="auto" width="500" src="https://user-images.githubusercontent.com/12037109/216634551-50425384-9a1e-4dcd-afd7-61701f69c693.png" alt="bit.dev" title="Home" loading="lazy" />
+
+## Pantallas de la app corriendo
+ <p>
+  <img height="auto" width="500" src="https://user-images.githubusercontent.com/12037109/216645448-40640ae5-01c0-413a-892d-ac21e90a073a.jpeg" alt="bit.dev" title="Home" loading="lazy" />
+  <img height="auto" width="500" src="https://user-images.githubusercontent.com/12037109/216645576-6bf3d5ce-6976-4a6f-a8aa-dcc25878f498.jpeg" alt="bit.dev" title="Home" loading="lazy" />
 </p>
+
